@@ -2,7 +2,7 @@
 
 This github page contains my implementation for DIBCO challenges in Document Image Binarization. The implemented code uses BCDU-Net model for learning binarization process on DIBCO series. The evaluation results shows the BCDU-net chan achieve the best performance on DIBCO challenges.If this code helps with your research please consider citing the following paper:
 </br>
-> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), [M. Asadi](https://scholar.google.com/citations?hl=en&user=8UqpIK8AAAAJ&view_op=list_works&sortby=pubdate), [Mahmood Fathy](https://scholar.google.com/citations?hl=en&user=CUHdgPcAAAAJ&view_op=list_works&sortby=pubdate) and [Sergio Escalera](https://scholar.google.com/citations?hl=en&user=oI6AIkMAAAAJ&view_op=list_works&sortby=pubdate) "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](https://arxiv.org/pdf/1909.00166.pdf).
+> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), et. all, "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](https://arxiv.org/pdf/1909.00166.pdf).
 
 ## Updates
 - December 3, 2019: First release (Complete implemenation for [DIBCO Series](https://vc.ee.duth.gr/dibco2019/), years 2009 to 2017 dataset added.). Code simply can be adapted for other datasets too.
@@ -51,10 +51,10 @@ Azad et. all [Proposed BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/ma
 
 #### Retinal blood vessel segmentation result on test data
 
-![Retinal Blood Vessel Segmentation result 1](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_1.png)
-![Retinal Blood Vessel Segmentation result 2](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_2.png)
-![Retinal Blood Vessel Segmentation result 3](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/Figure_3.png)
-
+![Documnet Image Binarization result 1](https://github.com/rezazad68/BCDUnet_DIBCO/blob/master/images/1.png)
+![Documnet Image Binarization result 2](https://github.com/rezazad68/BCDUnet_DIBCO/blob/master/images/2.png)
+![Documnet Image Binarization result 3](https://github.com/rezazad68/BCDUnet_DIBCO/blob/master/images/3.png)
+![Documnet Image Binarization result 4](https://github.com/rezazad68/BCDUnet_DIBCO/blob/master/images/4.png)
 
 
 
