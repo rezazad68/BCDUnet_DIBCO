@@ -18,7 +18,7 @@ This code has been implemented in python language using Keras libarary with tens
 For training deep model for each DIBCO year, follow the bellow steps:
 
 #### DIBCO Series
-1- Download the DIBCO datasets from [this](https://challenge.kitware.com/#phase/5abcb19a56357d0139260e53) link and extract it. We included DIBCO datasets from 2009 to 2017. It is easy to add DIBCO 2018, 2019 or other dataset, just need to revise the utils code. </br>
+1- Download the DIBCO datasets from [this](https://drive.google.com/open?id=11hu7gZF641eETGHi0Yq8DCLPrJ-aekRh) link and extract it. We included DIBCO datasets from 2009 to 2017. It is easy to add DIBCO 2018, 2019 or other dataset, just need to revise the utils code. </br>
 2- Run `Prepare_DIBCO.py` for data preperation and dividing data to train and test sets. Please note that this code will consider whole the samples of one particular year as a test set and rest of the years for the training set. It is the common data division which uses in DIBCO challenge. </br>
 3- Run `Train_DIBCO.py` for training BCDU-Net model using trainng and validation (20% of the training samples) sets. The model will be train for 100 epochs and it will save the best weights for the valiation set. </br>
 4- For performance calculation and producing binarization result, run `Evaluate.py`. It will represent performance measures and will saves related figures and results in `output` folder.</br>
