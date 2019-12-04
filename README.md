@@ -37,7 +37,21 @@ For evaluating the performance of the BCDU-Net model on DIBCO series, we followe
 
 Methods | DIBCO 2014 |DIBCO 2016
 ------------ | -------------|----|
-Azad et. all [BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **0.8222**	|**0.8012**
+[Otsu]()	 | 91.56	|73.79
+[Niblack]()	 | 91.56	|73.79
+[Sauvola]()	 | 91.56	|73.79
+[Wolf et al.]()	 | 91.56	|73.79
+[Gatos et al.]()	 | 91.56	|73.79
+[Sauvola MS]()	 | 91.56	|73.79
+[Su et al.]()	 | 91.56	|73.79
+[Howe]()	 | 91.56	|73.79
+[Kliger and Tal]()	 | 91.56	|73.79
+[CNN]()	 | 91.56	|73.79
+[SAE specific](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 91.56	|73.79
+[SAE global](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 91.56	|73.79
+
+
+Azad et. all [BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **empty**	|**0.9896**
 
 
 #### Document Image Binarization Results on DIBCO Series
