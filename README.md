@@ -22,7 +22,8 @@ For training deep model for each DIBCO year, follow the bellow steps:
 2- Run `Prepare_DIBCO.py` for data preperation and dividing data to train and test sets. Please note that this code will consider whole the samples of one particular year as a test set and rest of the years for the training set. It is the common data division which uses in DIBCO challenge. </br>
 3- Run `Train_DIBCO.py` for training BCDU-Net model using trainng and validation (20% of the training samples) sets. The model will be train for 100 epochs and it will save the best weights for the valiation set. </br>
 4- For performance calculation and producing binarization result, run `Evaluate.py`. It will represent performance measures and will saves related figures and results in `output` folder.</br>
-#### Notice: We train the model using patches that we extract from the training set. Also for test image binarization we apply patch-based overlaping binarization. If you want to train and evaluate the model of any particular year just determine the test year (parameter `Test_year = 2009`) when runing `Prepare_DIBCO.py` and `Evaluate.py`.</br>
+#### Notice
+We train the model using patches that we extract from the training set. Also for test image binarization we apply patch-based overlaping binarization. If you want to train and evaluate the model of any particular year just determine the test year (parameter `Test_year = 2009`) when runing `Prepare_DIBCO.py` and `Evaluate.py`.</br>
 
 
 ## Quick Overview
@@ -37,16 +38,16 @@ For evaluating the performance of the BCDU-Net model on DIBCO series, we followe
 
 Methods | DIBCO 2014 |DIBCO 2016
 ------------ | -------------|----|
-[Otsu]()	 | 91.56	| 73.79
-[Niblack]()	 | 22.26	| 16.7
-[Sauvola]()	 | 77.08	| 82.00
-[Wolf et al.]()	 | 90.47	| 81.76
-[Gatos et al.]()	 | 91.97	| 74.97
-[Sauvola MS]()	 | 87.86	| 65.04
-[Su et al.]()	 | 95.14	| 90.27
-[Howe]()	 | 90.00	| 80.64
-[Kliger and Tal]()	 | 95.00	| 90.48
-[CNN]()	 | 81.23	| 54.58
+[Otsu](https://ieeexplore.ieee.org/document/4310076)	 | 91.56	| 73.79
+[Niblack](https://dl.acm.org/citation.cfm?id=4901)	 | 22.26	| 16.7
+[Sauvola](https://www.sciencedirect.com/science/article/abs/pii/S0031320399000552)	 | 77.08	| 82.00
+[Wolf et al.](https://ieeexplore.ieee.org/document/1048482)	 | 90.47	| 81.76
+[Gatos et al.](https://www.sciencedirect.com/science/article/abs/pii/S0031320305003821)	 | 91.97	| 74.97
+[Sauvola MS](https://link.springer.com/article/10.1007/s10032-013-0209-0)	 | 87.86	| 65.04
+[Su et al.](https://ieeexplore.ieee.org/document/6373726)	 | 95.14	| 90.27
+[Howe](https://link.springer.com/article/10.1007/s10032-012-0192-x)	 | 90.00	| 80.64
+[Kliger and Tal](https://users.iit.demokritos.gr/~bgat/ICFHR_2016_DIBCO.pdf)	 | 95.00	| 90.48
+[CNN](https://link.springer.com/chapter/10.1007/978-3-319-19222-2_10)	 | 81.23	| 54.58
 [SAE specific](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 98.05	| 91.65
 [SAE global](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 89.12	| 85.27
 
