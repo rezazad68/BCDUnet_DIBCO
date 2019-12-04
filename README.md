@@ -49,7 +49,7 @@ Methods | DIBCO 2014 |DIBCO 2016
 [Kliger and Tal](https://users.iit.demokritos.gr/~bgat/ICFHR_2016_DIBCO.pdf)	 | 95.00	| 90.48
 [CNN](https://link.springer.com/chapter/10.1007/978-3-319-19222-2_10)	 | 81.23	| 54.58
 [SAE](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 89.12	| 85.27
-[R. Azad BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | 97.88	|**98.96**
+[R. Azad BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **97.88**	|**98.96**
 
 
 #### Document Image Binarization Results on DIBCO Series
