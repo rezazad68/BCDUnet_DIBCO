@@ -32,7 +32,7 @@ We train the model using patches that we extract from the training set. Also for
 ![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/convlstm.png)
 
 ## Results
-For evaluating the performance of the BCDU-Net model on DIBCO series, we followed the setting used in [`SAE`](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091). In [1] the authors provided the experimental results on only DIBCO series 2014 and 2016. To do so, they have considered the whole samples of one particular year (for example 2014 or 2016) as atest set and rest of the samples from other years as a train set. We used the same setting for reporting our results. In bellow, results of the proposed approach illustrated.
+For evaluating the performance of the BCDU-Net model on DIBCO series, we followed the setting used in [`SAE`](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091). In [1] the authors provided the experimental results on only DIBCO series 2014 and 2016. To do so, they have considered the whole samples of one particular year (for example 2014 or 2016) as atest set and rest of the samples from other years as a train set. We used the same setting for reporting our results. In bellow, results of the proposed approach illustrated in term of F-measure.
 </br>
  
 
