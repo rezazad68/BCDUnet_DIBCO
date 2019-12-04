@@ -22,7 +22,7 @@ For training deep model for each DIBCO year, follow the bellow steps:
 2- Run `Prepare_DIBCO.py` for data preperation and dividing data to train and test sets. Please note that this code will consider whole the samples of one particular year as a test set and rest of the years for the training set. It is the common data division which uses in DIBCO challenge. </br>
 3- Run `Train_DIBCO.py` for training BCDU-Net model using trainng and validation (20% of the training samples) sets. The model will be train for 100 epochs and it will save the best weights for the valiation set. </br>
 4- For performance calculation and producing binarization result, run `Evaluate.py`. It will represent performance measures and will saves related figures and results in `output` folder.</br>
-Notice: We train the model using patches that we extract from the training set. Also for test image binarization we apply patch-based overlaping binarization. Similiart to the approach we used in medical Retina image.
+#### Notice: We train the model using patches that we extract from the training set. Also for test image binarization we apply patch-based overlaping binarization. If you want to train and evaluate the model of any particular year just determine the test year (parameter `Test_year = 2009`) when runing `Prepare_DIBCO.py` and `Evaluate.py`.</br>
 
 
 ## Quick Overview
@@ -31,15 +31,12 @@ Notice: We train the model using patches that we extract from the training set. 
 ![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/convlstm.png)
 
 ## Results
-For evaluating the performance of the BCDU-Net model, we followed the resutl of DIBCO 2014 and DIBCO 2016 have been considered for evaluation. In bellow, results of the proposed approach illustrated.
+For evaluating the performance of the BCDU-Net model on DIBCO series, we followed the setting used in [1](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091). In [1] the authors provided the experimental results on only DIBCO series 2014 and 2016. To do so, they have considered the whole samples of one particular year (for example 2014 or 2016) as atest set and rest of the samples from other years as a train set. We used the same setting for reporting our results. In bellow, results of the proposed approach illustrated.
 </br>
  
 
 Methods | DIBCO 2014 |DIBCO 2016
------------- | -------------|----
-
-
-
+------------ | -------------|----|
 Azad et. all [BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **0.8222**	|**0.8012**
 
 
