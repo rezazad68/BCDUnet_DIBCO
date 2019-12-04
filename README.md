@@ -2,7 +2,7 @@
 
 This GitHub page contains my implementation for DIBCO challenges in Document Image Binarization. The implemented code uses the BCDU-Net model for learning the binarization process on the DIBCO series. The evaluation results show the BCDU-net chan achieves the best performance on DIBCO challenges. If this code helps with your research please consider citing the following paper:
 </br>
-> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), et. all, "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](https://arxiv.org/pdf/1909.00166.pdf).
+> [R. Azad](https://scholar.google.com/citations?hl=en&user=Qb5ildMAAAAJ&view_op=list_works&sortby=pubdate), et. all, "Bi-Directional ConvLSTM U-Net with Densely Connected Convolutions ", ICCV, 2019, download [link](http://openaccess.thecvf.com/content_ICCVW_2019/papers/VRMI/Azad_Bi-Directional_ConvLSTM_U-Net_with_Densley_Connected_Convolutions_ICCVW_2019_paper.pdf).
 
 ## Updates
 - December 3, 2019: First release (Complete implementation for [DIBCO Series](https://vc.ee.duth.gr/dibco2019/), years 2009 to 2017 datasets added.). Other datasets can be added easily.
@@ -48,9 +48,8 @@ Methods | DIBCO 2014 |DIBCO 2016
 [Howe](https://link.springer.com/article/10.1007/s10032-012-0192-x)	 | 90.00	| 80.64
 [Kliger and Tal](https://users.iit.demokritos.gr/~bgat/ICFHR_2016_DIBCO.pdf)	 | 95.00	| 90.48
 [CNN](https://link.springer.com/chapter/10.1007/978-3-319-19222-2_10)	 | 81.23	| 54.58
-[SAE specific](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 98.05	| 91.65
-[SAE global](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 89.12	| 85.27
-[R. Azad BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **will update**	|**98.96**
+[SAE](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 89.12	| 85.27
+[R. Azad BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | 97.88	|**98.96**
 
 
 #### Document Image Binarization Results on DIBCO Series
@@ -62,11 +61,10 @@ Methods | DIBCO 2014 |DIBCO 2016
 
 
 ### Model weights
-You can download the learned weights for DIBCO 2014 and DIBCO 2016 from the following table. Please note that the trained model can also be used for other years too.
+You can download the learned weights for DIBCO series, which trained on DIBCO 2009-2017 (except 2016) samples. Please note that the trained model can be used for other years too.
 
 Test year |Learned weights
 ------------ | -------------
-DIBCO 2014 | [Model Weights]()
 DIBCO 2016 | [Model Weights](https://drive.google.com/open?id=1aBjF7YLtI26wOm8Uj8XNk1WQsAx1Asuf)
 
 
