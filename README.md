@@ -61,6 +61,15 @@ Methods | DIBCO 2014 |DIBCO 2016
 ![Documnet Image Binarization result 4](https://github.com/rezazad68/BCDUnet_DIBCO/blob/master/images/4.png)
 
 
+### Model weights
+You can download the learned weights for DIBCO 2014 and DIBCO 2016 from the following table. Please note that the trained model can also be used for other years too. Table will update soon.
+
+Test year |Learned weights
+------------ | -------------
+DIBCO 2014 | [Model Weights]()
+DIBCO 2016 | [Model Weights]()
+
+
 
 ### Query
 All implementation done by Reza Azad. For any query please contact us for more information.
