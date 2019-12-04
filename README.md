@@ -23,7 +23,7 @@ For training deep model for each DIBCO year, follow the bellow steps:
 3- Run `Train_DIBCO.py` for training BCDU-Net model using trainng and validation (20% of the training samples) sets. The model will be training for 100 epochs and it will save the best weights for the validation set. </br>
 4- For performance calculation and producing binarization result, run `Evaluate.py`. It will represent performance measures and will save related figures and results in `output` folder.</br>
 #### Notice
-We train the model using patches that we extract from the training set. Also for test image binarization, we apply patch-based overlaping binarization. If you want to train and evaluate the model of any particular year just determine the test year (parameter `Test_year = 2009`) when runing `Prepare_DIBCO.py` and `Evaluate.py`.</br>
+We train the model using patches that we extract from the training set. Also for test image binarization, we apply patch-based overlaping binarization. If you want to train and evaluate the model of any particular year just determine the test year (parameter `Test_year = 2016`) when runing `Prepare_DIBCO.py` and `Evaluate.py`.</br>
 
 
 ## Quick Overview
