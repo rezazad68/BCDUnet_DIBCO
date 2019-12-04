@@ -37,21 +37,21 @@ For evaluating the performance of the BCDU-Net model on DIBCO series, we followe
 
 Methods | DIBCO 2014 |DIBCO 2016
 ------------ | -------------|----|
-[Otsu]()	 | 91.56	|73.79
-[Niblack]()	 | 91.56	|73.79
-[Sauvola]()	 | 91.56	|73.79
-[Wolf et al.]()	 | 91.56	|73.79
-[Gatos et al.]()	 | 91.56	|73.79
-[Sauvola MS]()	 | 91.56	|73.79
-[Su et al.]()	 | 91.56	|73.79
-[Howe]()	 | 91.56	|73.79
-[Kliger and Tal]()	 | 91.56	|73.79
-[CNN]()	 | 91.56	|73.79
-[SAE specific](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 91.56	|73.79
-[SAE global](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 91.56	|73.79
+[Otsu]()	 | 91.56	| 73.79
+[Niblack]()	 | 22.26	| 16.7
+[Sauvola]()	 | 77.08	| 82.00
+[Wolf et al.]()	 | 90.47	| 81.76
+[Gatos et al.]()	 | 91.97	| 74.97
+[Sauvola MS]()	 | 87.86	| 65.04
+[Su et al.]()	 | 95.14	| 90.27
+[Howe]()	 | 90.00	| 80.64
+[Kliger and Tal]()	 | 95.00	| 90.48
+[CNN]()	 | 81.23	| 54.58
+[SAE specific](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 98.05	| 91.65
+[SAE global](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 89.12	| 85.27
 
 
-Azad et. all [BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **empty**	|**0.9896**
+Azad et. all [BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **will update**	|**98.96**
 
 
 #### Document Image Binarization Results on DIBCO Series
