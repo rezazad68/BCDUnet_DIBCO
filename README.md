@@ -67,7 +67,7 @@ You can download the learned weights for DIBCO 2014 and DIBCO 2016 from the foll
 Test year |Learned weights
 ------------ | -------------
 DIBCO 2014 | [Model Weights]()
-DIBCO 2016 | [Model Weights]()
+DIBCO 2016 | [Model Weights](https://drive.google.com/open?id=1aBjF7YLtI26wOm8Uj8XNk1WQsAx1Asuf)
 
 
 
