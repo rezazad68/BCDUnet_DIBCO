@@ -32,7 +32,7 @@ We train the model using patches that we extract from the training set. Also for
 ![Diagram of the proposed method](https://github.com/rezazad68/LSTM-U-net/blob/master/output_images/convlstm.png)
 
 ## Results
-For evaluating the performance of the BCDU-Net model on DIBCO series, we followed the setting used in [1](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091). In [1] the authors provided the experimental results on only DIBCO series 2014 and 2016. To do so, they have considered the whole samples of one particular year (for example 2014 or 2016) as atest set and rest of the samples from other years as a train set. We used the same setting for reporting our results. In bellow, results of the proposed approach illustrated.
+For evaluating the performance of the BCDU-Net model on DIBCO series, we followed the setting used in [`SAE`](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091). In [1] the authors provided the experimental results on only DIBCO series 2014 and 2016. To do so, they have considered the whole samples of one particular year (for example 2014 or 2016) as atest set and rest of the samples from other years as a train set. We used the same setting for reporting our results. In bellow, results of the proposed approach illustrated.
 </br>
  
 
@@ -50,9 +50,7 @@ Methods | DIBCO 2014 |DIBCO 2016
 [CNN](https://link.springer.com/chapter/10.1007/978-3-319-19222-2_10)	 | 81.23	| 54.58
 [SAE specific](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 98.05	| 91.65
 [SAE global](https://www.sciencedirect.com/science/article/abs/pii/S0031320318303091)	 | 89.12	| 85.27
-
-
-Azad et. all [BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **will update**	|**98.96**
+[R. Azad BCDU-Net](https://github.com/rezazad68/LSTM-U-net/edit/master/README.md)	 | **will update**	|**98.96**
 
 
 #### Document Image Binarization Results on DIBCO Series
